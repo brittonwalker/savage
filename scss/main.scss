@@ -1,0 +1,51 @@
+@import "bootstrap";
+
+// Colors
+$peach:  #ffd3c2;
+$yellow: #ffc150;
+$green: #ccece9;
+$purple: #d3d7ee;
+
+.peach {
+	background-color: $peach;
+}
+.yellow {
+	background-color: $yellow;
+}
+.green {
+	background-color: $green;
+}
+.purple {
+	background-color: $purple;
+}
+.headings {
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
+	margin: 15px 0;
+}
+.float-right {
+	float: right;
+}
+table {
+	width: 100%;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+}
+body {
+	position: relative;
+}
+.scrim {
+	position: absolute;
+	width: 100vw;
+	height: 100vw;
+	background-color: rgba(255, 255, 255 ,0.3);
+	z-index: 1;
+	display: none;
+	&.show {
+		display: block;
+	}
+}
