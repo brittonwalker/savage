@@ -72,6 +72,12 @@ p {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
+}
+.art-titles {
+	p {
+		display: inline-block;
+	}
+}
 .mask {
 	margin-right: calc(((100vw - 640px) / -2));
     margin-left: calc(((100vw - 640px) / -2));
