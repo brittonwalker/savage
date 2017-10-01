@@ -8,15 +8,35 @@ $purple: #d3d7ee;
 
 .peach {
 	background-color: $peach;
+	footer:after {
+		content: "";
+		background: -webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),to($peach));
+		background: linear-gradient(hsla(0,0%,100%,0),$peach);
+	}
 }
 .yellow {
 	background-color: $yellow;
+	footer:after {
+		content: "";
+		background: -webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),to($yellow));
+		background: linear-gradient(hsla(0,0%,100%,0),$yellow);
+	}
 }
 .green {
 	background-color: $green;
+	footer:after {
+		content: "";
+		background: -webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),to($green));
+		background: linear-gradient(hsla(0,0%,100%,0),$green);
+	}
 }
 .purple {
 	background-color: $purple;
+	footer:after {
+		content: "";
+		background: -webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),to($purple));
+		background: linear-gradient(hsla(0,0%,100%,0),$purple);
+	}
 }
 .headings {
 	font-size: 20px;
