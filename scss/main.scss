@@ -30,6 +30,8 @@ $purple: #d3d7ee;
 }
 table {
 	width: 100%;
+	position: relative;
+	z-index: 6;
 }
 footer {
 	position: fixed;
